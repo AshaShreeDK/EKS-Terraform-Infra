@@ -19,6 +19,7 @@ ec2_ssh_key - ssh key in file variables.tf
 
 → cd eks-infra-terraform
 → terraform init
+→ terraform plan -auto-approve
 → terraform apply -auto-approve
 ```
 Note: It take around 5-10 minutes to build the eks cluster
