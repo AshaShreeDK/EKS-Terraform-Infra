@@ -16,7 +16,7 @@ ec2_ssh_key - ssh key in file variables.tf
 → make sure you are configuring aws cli before you start
 
 ```sh 
-→ git clone https://github.com/shan5a6/eks-infra-terraform.git
+
 → cd eks-infra-terraform
 → terraform init
 → terraform apply -auto-approve
